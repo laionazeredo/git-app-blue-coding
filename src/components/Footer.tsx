@@ -2,7 +2,13 @@ function Footer ()
 {
   return (
     <>
-      <h1>Footer</h1>
+      <footer className="footer">
+        <div className="content has-text-centered">
+          <p>
+            Just a little footer
+          </p>
+        </div>
+      </footer>
     </>
   )
 }

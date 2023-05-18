@@ -2,7 +2,16 @@ function Header ()
 {
   return (
     <>
-    <h1>Hello header</h1>
+      <section className="hero">
+        <div className="hero-body">
+          <p className="title">
+            Gif App - A blue coding App
+          </p>
+          <p className="subtitle">
+            Search for your favorite gifs
+          </p>
+        </div>
+      </section>
     </>
   )
 }
